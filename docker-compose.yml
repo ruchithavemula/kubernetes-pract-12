@@ -16,7 +16,7 @@ services:
     image : ruchithavemula11/hotelbackendpro:latest
     container_name: hotelbackend-proc
     ports:
-      - "2090:2090"
+      - "2090:8080"
     depends_on:
       - mysqldb
     restart: on-failure
